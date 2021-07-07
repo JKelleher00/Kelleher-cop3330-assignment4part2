@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+class MainApp {
+    main()
+    start()
+}
+class Scene1{
+    AddNewClicked()
+    LoadPrevClicked()
+    LoadSingleClicked()
+    LoadMultipleClicked()
+    FindClicked()
+}
+class Scene2{
+    SetTitleClicked()
+    AddClicked()
+    DeleteListClicked()
+    OnlyShowCompleteClicked()
+    OnlyShowNotCompleteClicked()
+    ShowAllClicked()
+    SaveLocallyClicked()
+    SaveExternallyClicked()
+}
+javafx.application <|-- MainApp
+MainApp -- Scene1
+MainApp -- Scene2
+@enduml
