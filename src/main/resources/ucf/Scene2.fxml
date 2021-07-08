@@ -31,6 +31,10 @@
       <Button layoutX="14.0" layoutY="478.0" mnemonicParsing="false" onAction="#OnlyShowNotCompleteClicked" prefHeight="91.0" prefWidth="72.0" text="Only Show Not Complete" wrapText="true" />
       <Button layoutX="14.0" layoutY="222.0" mnemonicParsing="false" onAction="#ShowAllClicked" prefHeight="91.0" prefWidth="72.0" text="Show All" wrapText="true" />
       <Button layoutX="483.0" layoutY="68.0" mnemonicParsing="false" onAction="#SaveExternallyClicked" text="Save Externally" />
+      <Button layoutX="98.0" layoutY="577.0" mnemonicParsing="false" onAction="#RemovePressed" text="Remove" />
+      <Button layoutX="184.0" layoutY="577.0" mnemonicParsing="false" onAction="#ClearPressed" text="Clear" />
+      <Button layoutX="637.0" layoutY="68.0" mnemonicParsing="false" onAction="#LoadClicked" text="Load Previous" />
+      <TextField fx:id="PreviousTitle" layoutX="738.0" layoutY="68.0" promptText="Enter Title of Previous" />
       <CheckBox fx:id="CompletedBox" layoutX="716.0" layoutY="138.0" mnemonicParsing="false" text="Completed" />
       <Label fx:id="TitleLabel" alignment="CENTER" layoutX="217.0" prefHeight="10.0" prefWidth="493.0" text="Untitled">
          <font>
@@ -48,7 +52,5 @@
             <Font size="36.0" />
          </font>
       </Label>
-      <Button layoutX="98.0" layoutY="577.0" mnemonicParsing="false" onAction="#RemovePressed" text="Remove" />
-      <Button layoutX="184.0" layoutY="577.0" mnemonicParsing="false" onAction="#ClearPressed" text="Clear" />
    </children>
 </AnchorPane>

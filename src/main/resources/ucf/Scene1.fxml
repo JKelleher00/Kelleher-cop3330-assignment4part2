@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ucf.Scene1">
+<AnchorPane prefHeight="691.0" prefWidth="933.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ucf.Scene1">
    <children>
-      <Button layoutX="227.0" layoutY="71.0" mnemonicParsing="false" onAction="#AddNewClicked" prefHeight="35.0" prefWidth="147.0" text="Add New List" />
-      <Button layoutX="227.0" layoutY="183.0" mnemonicParsing="false" onAction="#LoadPrevClicked" prefHeight="35.0" prefWidth="147.0" text="Load Previous" />
-      <Button fx:id="FindButton" disable="true" layoutX="281.0" layoutY="320.0" mnemonicParsing="false" onAction="#FindClicked" text="Find" />
-      <TextField fx:id="TitleAskerBox" disable="true" layoutX="226.0" layoutY="267.0" text="Enter Title to Find" />
+      <Button layoutX="393.0" layoutY="621.0" mnemonicParsing="false" onAction="#AddNewClicked" prefHeight="35.0" prefWidth="147.0" text="Add New List" />
+      <ImageView fitHeight="539.0" fitWidth="933.0">
+         <image>
+            <Image url="@../../../../../../Pictures/HelpPage.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="202.0" layoutY="547.0" prefHeight="74.0" prefWidth="530.0" text="For Rey, without whom this dedication message would not be possible">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
